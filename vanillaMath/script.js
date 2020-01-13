@@ -14,7 +14,7 @@ function makeQuestion(){
     var number2 = randomNumber();
     correctAnswer = number1 + number2;
     document.getElementById("question").innerText = " ";
-    document.getElementById("question").append(number1 + " + " + number2);
+    document.getElementById("question").append("What's " + number1 + " + " + number2 + "?");
 
 }
 
